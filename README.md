@@ -40,13 +40,13 @@ For this project the goal was to get a better understanding of big data handling
 
 | filename | file description |
 | :-- | :-- |
-| mini_sparkify_event_data.json | A list of user interactions with the music streaming service, e.g. sub sites visited, listened songs, registration date etc. |
+| mini_sparkify_event_data.7z | A zipped JSON file containing a list of user interactions with the music streaming service, e.g. sub sites visited, listened songs, registration date etc. |
 | Sparkify_Data.ipynb | This notebook contains the data exploration, data preparation, feature engineering and exporting the feature dataset |
 | Sparkify_Data.html | HTML export of Sparkify_Data.ipynb |
 | Sparkify_Modeling.ipynb | This notebook contains the training and evaluation of different algorithms to predict customer churn |
 | Sparkify_Modeling.html | HTML export of Sparkify_Modeling.ipynb |
 | mini_sparkify_feature_data.parquet | Dataset which contains the features selected and created in Sparkify_Data.ipynb and used for modeling in Sparkify_Modeling.ipynb |
-| best_model_mlp_f1_0.7 | Folder containing the export of the best model found for predicting churn |
+| best_model | Folder containing the export of the best model found for predicting churn |
 
 The used dataset *mini_sparkify_event_data.json* contains a small subset of a larger dataset mimicking the usage log of a fictional music streaming service called Sparkify. This subset contains 128 MB of data.  
 The dataset was provided by Udacity.
