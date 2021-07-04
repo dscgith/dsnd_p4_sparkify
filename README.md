@@ -55,17 +55,20 @@ The dataset was provided by Udacity.
 
 ### What has been done?
 + Sparkify_Data.ipynb  
-  *The dataset was thoroughly explored by plotting statistical and visualisations to get an understanding of the data and collect ideas of interesting features.  
-      In the end a feature dataset with 27 features was created for all 225 users of the small dataset by aggregating the data of the users.*
     + Data cleaning
     + Exploratory Data Analysis
     + Feature Engineering  
     
+*The dataset was thoroughly explored by plotting statistical and visualisations to get an understanding of the data and collect ideas of interesting features.  
+In the end a feature dataset with 27 features was created for all 225 users of the small dataset by aggregating the data of the users.*
+    
 + Sparkify_Modeling.ipynb  
-  *The feature dataset of the previous notebook was used to train several models like Logistic Regression, DecisionTreeClassifier, RandomForestClassifier, LinearSVC, NaiveBayes and MultilayerPerceptronClassifier. For those models a grid search was done to find optimized parameters by evaluating with F1-Score and cross-validation. The MultilayerPerceptronClassifier was found to be best performing, showing a F1-Score of 0.7.*
     + Training different models for predicting user churn
     + Grid search and cross-validation
-    + Model result comparison
+    + Model result comparison  
+    
+*The feature dataset of the previous notebook was used to train several models like Logistic Regression, DecisionTreeClassifier, RandomForestClassifier, LinearSVC, NaiveBayes and MultilayerPerceptronClassifier. For those models a grid search was done to find optimized parameters by evaluating with F1-Score and cross-validation.  
+The MultilayerPerceptronClassifier was found to be best performing, showing a F1-Score of 0.7 using the following parameters found with grid search: maxIter: 20 / layers: [27, 10, 2] / solver: l-bfgs / stepSize: 0.005*
     
 ---
 
