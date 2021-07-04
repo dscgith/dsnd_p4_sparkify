@@ -73,6 +73,7 @@ The dataset was provided by Udacity.
 + Use the bigger dataset to get more information and less bias for model training
 + Even out the bias by dropping or duplication data
 + Engineer more features, that improve churn prediction
++ Evaluate downgrade events as indicator for future subscription cancellation
 + Train models on bigger parameter range with grid search
 
 ---
